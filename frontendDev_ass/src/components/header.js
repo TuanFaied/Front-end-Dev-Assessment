@@ -41,26 +41,26 @@ function Header() {
             </span>
     
             <span className=" cursor-pointer sm:hidden" onClick={toggleMenu}>
-              <IonIcon className='pr-5 pl-16 h-6 w-8' icon={isMenuOpen ? closeOutline : menuOutline} />
+              <IonIcon className='pl-16 h-6 w-8' icon={isMenuOpen ? closeOutline : menuOutline} />
             </span>
           </div>
     
           <ul
-            className={`sm:flex sm:items-center z-10 absolute sm:static   left-0 top-0 transition-transform duration-500 
+            className={`sm:flex sm:items-center z-auto absolute sm:static left-0 top-0 transition-transform duration-500 
                 ${isMenuOpen ? 'w-full h-full top-[77px] opacity-100' : 'top-[-400px] opacity-100 '}
                 ${windowWidth < screensize ? 'bg-white px-7' : 'bg-PrimaryColor  justify-end'} `}
           >
-            <div className='space-y-8 pt-4'>
+            <div className="flex flex-col sm:flex-row sm:space-x-7 justify-center items-center h-full space-y-8 sm:space-y-0">
             {[ 'SERVICE', 'ABOUT US', 'CONTACT US', "CAREERS"].map((item) => (
               <li
                 key={item}
-                className="xs:my-0 sm:text-white text-tx text-black hover:text-SecondaryColor duration-500"
+                className=" sm:text-white text-tx text-black hover:text-SecondaryColor duration-500"
               >
                 <a href="#" >{item}</a>
               </li>
             ))}
-            </div>
             
+            </div>
           </ul>
         </nav>
       );

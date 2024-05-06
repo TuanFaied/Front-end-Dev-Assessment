@@ -18,7 +18,9 @@ module.exports = {
         AccentColor1:'#E2F2FE',
         AccentColor2:'#FFF8E0',
         ErrorColor:'FF0335',
-        SuccessColor:'#5EB30B'
+        SuccessColor:'#5EB30B',
+        lg1:'#1CBDDD',
+        lg2:'#4DCA79',
 
       },
       screens: {
@@ -39,6 +41,9 @@ module.exports = {
       tx:['14px','16.94px'],
       tx2:['16px','19.2px'],
       tx3:['21px','25.41px'],
+      tx4:['48px','48px'],
+      tx5:['14px','14px'],
+      tx6:['36px','36px']
     }
   },
   plugins: [],
