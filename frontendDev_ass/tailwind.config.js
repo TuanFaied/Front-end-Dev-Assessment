@@ -36,7 +36,9 @@ module.exports = {
       },
     },
     fontSize:{
-      tx:['14px','16.94px']
+      tx:['14px','16.94px'],
+      tx2:['16px','19.2px'],
+      tx3:['21px','25.41px'],
     }
   },
   plugins: [],
