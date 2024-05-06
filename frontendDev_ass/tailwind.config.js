@@ -21,6 +21,7 @@ module.exports = {
         SuccessColor:'#5EB30B',
         lg1:'#1CBDDD',
         lg2:'#4DCA79',
+        bg:'#FAF8FF'
 
       },
       screens: {
@@ -43,7 +44,10 @@ module.exports = {
       tx3:['21px','25.41px'],
       tx4:['48px','48px'],
       tx5:['14px','14px'],
-      tx6:['36px','36px']
+      tx6:['36px','36px'],
+      tx7:['22px','28px'],
+      tx8:['27px','33px'],
+      tx9:['18px','30px'],
     }
   },
   plugins: [],
