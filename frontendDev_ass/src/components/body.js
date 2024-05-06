@@ -6,7 +6,7 @@ import FAQ from './FAQ'
 function body() {
   return (
     <>
-    <div className='lg:px-[188px] md:px-[152px] sm:px-[40px] px-[20px]'>
+    <div className=''>
     <CardInfo  
      text2="Learn More" text1="Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online."
               texth="Web & Mobile App Development" imag={Image2} reverse={false}
@@ -15,9 +15,9 @@ function body() {
               texth="Digital Strategy Consulting" imag={Image1} reverse={true}
     />
     </div>
-    <div className="flex justify-center items-center "> 
+    <div className="flex justify-center items-center md:mb-[80px]  sm:mb-[68px] pt-[60px] md:pt-[80px] "> 
       <div className="lg:w-[864px] lg:h-[392px] md:w-[896px] md:h-[392px] sm:w-[686px] sm:h-[506px] w-[334px] h-[769px]"> 
-      <p className='text-tx8 flex justify-center items-center text-PrimaryColor pb-7' >
+      <p className='text-tx8 flex justify-center font-semibold items-center text-PrimaryColor pb-7' >
       Frequently asked questions
       </p>
         <FAQ />

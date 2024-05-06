@@ -46,11 +46,11 @@ function Header() {
           </div>
     
           <ul
-            className={`sm:flex sm:items-center z-auto absolute sm:static left-0 top-0 transition-transform duration-500 
-                ${isMenuOpen ? 'w-full h-full top-[77px] opacity-100' : 'top-[-400px] opacity-100 '}
+            className={`sm:flex sm:items-center z-10 absolute sm:static left-0 top-0 transition-transform duration-500 
+                ${isMenuOpen ? 'h-screen w-screen top-[77px] opacity-100' : 'top-[-400px] opacity-100 '}
                 ${windowWidth < screensize ? 'bg-white px-7' : 'bg-PrimaryColor  justify-end'} `}
           >
-            <div className="flex flex-col sm:flex-row sm:space-x-7 justify-center items-center h-full space-y-8 sm:space-y-0">
+            <div className="flex flex-col sm:flex-row sm:space-x-7 pt-[16px] h-full space-y-8 sm:space-y-0">
             {[ 'SERVICE', 'ABOUT US', 'CONTACT US', "CAREERS"].map((item) => (
               <li
                 key={item}

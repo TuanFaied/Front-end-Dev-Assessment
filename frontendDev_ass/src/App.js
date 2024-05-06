@@ -11,9 +11,9 @@ function App() {
 
   
   return (
-    <><div style={{ height: "77px" }}>
+    <>
       <Header />
-    </div>
+    
     <HeroSection/>
     <Body/>
     <Footer /></>

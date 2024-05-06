@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 const FAQ = () => {
   return (
-    <div className="p-4  rounded-lg">
+    <div className="p-4  overflow-auto  rounded-lg">
       <Accordion 
         title="Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?"
         answer="Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer."
