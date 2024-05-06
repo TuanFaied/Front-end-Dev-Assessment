@@ -56,7 +56,7 @@ function Header() {
                 key={item}
                 className=" sm:text-white text-tx text-black hover:text-SecondaryColor duration-500"
               >
-                <a href="#" >{item}</a>
+                <a href={`/${item}`} >{item}</a>
               </li>
             ))}
             

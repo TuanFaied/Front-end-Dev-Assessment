@@ -22,18 +22,18 @@ function Footer() {
           <div className="w-full xs:w-auto  mr-[128px]">
             <h3 className="text-tx3 font-bold mb-2">Our Technologies</h3>
             <ul className="flex flex-col space-y-2">
-              <li><a href="#" className="text-tx text-white hover:text-gray-300">ReactJS</a></li>
-              <li><a href="#" className="text-tx text-white hover:text-gray-300">Gatsby</a></li>
-              <li><a href="#" className="text-tx text-white hover:text-gray-300">Next25</a></li>
-              <li><a href="#" className="text-tx text-white hover:text-gray-300">NodeJS</a></li>
+              <li><a href="/rectjs" className="text-tx text-white hover:text-gray-300">ReactJS</a></li>
+              <li><a href="/gatsby" className="text-tx text-white hover:text-gray-300">Gatsby</a></li>
+              <li><a href="/nextjs" className="text-tx text-white hover:text-gray-300">Next25</a></li>
+              <li><a href="/nodejs" className="text-tx text-white hover:text-gray-300">NodeJS</a></li>
             </ul>
           </div>
           <div className="w-full pt-[40px] sm:pt-[0px] xs:w-auto">
             <h3 className="text-tx3 font-bold mb-2">Our Services</h3>
             <ul className="flex flex-col space-y-2">
-              <li><a href="#" className="text-tx text-white hover:text-gray-300">Social Media Marketing</a></li>
-              <li><a href="#" className="text-tx text-white hover:text-gray-300">Web & Mobile App Development</a></li>
-              <li><a href="#" className="text-tx text-white hover:text-gray-300">Data & Analytics</a></li>
+              <li><a href="/social" className="text-tx text-white hover:text-gray-300">Social Media Marketing</a></li>
+              <li><a href="/wen&mobile" className="text-tx text-white hover:text-gray-300">Web & Mobile App Development</a></li>
+              <li><a href="/data&analytics" className="text-tx text-white hover:text-gray-300">Data & Analytics</a></li>
             </ul>
           </div>
         </div>
@@ -45,9 +45,9 @@ function Footer() {
           
         />
           <ul className="flex space-x-4 pt-2">
-            <li><a href="#" className="text-white hover:text-gray-300">Privacy Policy</a></li>
+            <li><a href="/privec&policy" className="text-white hover:text-gray-300">Privacy Policy</a></li>
             <p>|</p>
-            <li><a href="#" className="text-white hover:text-gray-300">Terms & Conditions</a></li>
+            <li><a href="ter&condition" className="text-white hover:text-gray-300">Terms & Conditions</a></li>
           </ul>
         </div>
       </div>
